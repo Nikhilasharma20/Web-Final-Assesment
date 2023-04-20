@@ -1,0 +1,132 @@
+ body {
+            background-image: url('https://images.pexels.com/photos/15063346/pexels-photo-15063346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+
+
+
+textarea {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        /* Header styles */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .title {
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        .links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .links li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .links li:last-child {
+            margin-right: 0;
+        }
+
+        .links a {
+            color: #666;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #333;
+        }
+
+        /* Section styles */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .infographic {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .infographic p {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Skills list styles */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-left: -10px;
+        }
+
+        .skills-list li {
+            padding: 10px;
+            margin: 10px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        /* Projects list styles */
+        .project-list {
+            list-style-type: none;
+            margin-left: -20px;
+        }
+
+        .project-list li {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            box-shadow: 0px 0px 8
+
+
+
+
